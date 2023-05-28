@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid rgb(45, 180, 4);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 60px;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+footer {
+  background-color: #171a1e;
+  position: absolute;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.active {
+  color: rgb(45, 180, 4);
+}
+
+.zag {
+  font-family: SBSansDisplay, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.text {
+  color: #2c3136;
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 25px 0px 0px 50px;
+}
+
+.zag2 {
+  font: 600 28px/30px SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #262626;
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.knopka {
+  display: inline-block;
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  transition: all 0.2s ease-out;
+  padding: 12px 10px 13px;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border: 1px solid;
+  margin: 25px 0px 0px 50px;
+}
+
+.fon {
+  background-image: url(https://www.sberbank.com/portalserver/content/api/contentstream-id/a87bbd63-b8ff-42b9-9b3c-b494dda7481b/a853a8b8-df42-485f-8ccd-cb84bdac04ec/com/about/brand_shar.jpg);
+  right: 0;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 25%;
+}
+
+.brand {
+  display: inline-block;
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  width: 300px;
+  color: #fff;
+  font-size: 70px;
+  padding: 100px 60px 0px;
+  font-weight: 600;
+}
+
+.brandtext {
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  width: 300px;
+  color: #fff;
+  padding: 20px 60px 0px;
+  font-weight: 500;
+}
+
+.lider {
+  font: 600 28px/30px SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #262626;
+  font-weight: 400;
+  margin: 20px 0px 0px 50px;
+}
+
+.fon2 {
+  background-image: url(https://www.sberbank.com/portalserver/content/api/contentstream-id/a87bbd63-b8ff-42b9-9b3c-b494dda7481b/de153e94-3812-493b-b9b8-fed8ab5aa82e/com/o_banke/team_new.jpg);
+  right: 0;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 25%;
+}
+
+.komanda {
+  display: inline-block;
+  font: 600 28px/30px SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  width: 500px;
+  color: black;
+  padding: 100px 60px 0px;
+}
+
+.komandatext {
+  color: #2c3136;
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  padding: 20px 60px 0px;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 40px;
+  font-size: 16px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  color: #2c3136;
+  font-family: SBSansInterface, OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
